@@ -11,16 +11,13 @@ services:
       - key: DB_USER
         value: root
       - key: DB_PASSWORD
-        value: كلمة_المرور
+        value: VyXkzBXZvKymGWQFcTScyCiOqtOueIOQ
       - key: DB_DATABASE
         value: realestate_db
       - key: JWT_SECRET
         value: jashdj1236876asdgjhvh@!!@!@jhasdjhgajdahgdfhgbvxcbzchfFFFASYTFGHFGHfgDGFGAHDFTYQWEGHFXCHGDDTfdagfsdgdywreqwgf/!@!@!@!@@!@^^&&%$^&*&*%^$XZCDSQEqdxjHJHJGHG
       - key: PORT
-        value: 10000
-
-
-
+        value: 5000
 
 
 
