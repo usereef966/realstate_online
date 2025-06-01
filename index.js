@@ -14,9 +14,10 @@ const crypto = require('crypto');
 app.use(express.json());
 app.use(cors());
 
+
 const db = mysql.createConnection({
-   host:     process.env.MYSQLHOST,
-   port:     process.env.MYSQLPORT,
+  host:     process.env.MYSQLHOST,
+  port:     process.env.MYSQLPORT,
   user:     process.env.MYSQLUSER,
   password: process.env.MYSQLPASSWORD,
   database: process.env.MYSQLDATABASE,
